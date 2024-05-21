@@ -25,8 +25,8 @@ function Calculatrice() {
     <div className="calculatrice">
         <div className="display">{display}</div>
         <div className="buttons">
-            <button className='operators' onClick={() => handleClick('(')}>（</button>
-            <button className='operators' onClick={() => handleClick(')')}>）</button>
+            <button className='operators' onClick={() => handleClick('(')}>（ </button>
+            <button className='operators' onClick={() => handleClick(')')}> ）</button>
             <button className='operators' onClick={() => handleClick('%')}>%</button>
             <button className='operators' onClick={clearDisplay}>AC</button>
             <button onClick={() => handleClick('7')}>7</button>
